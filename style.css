@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=M+PLUS+1+Code&family=Poppins&display=swap");
+
+/* 
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d4a373;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: #fefae0;
+  padding: 50px;
+  border-radius: 20px;
+  /* height: 300px; */
+  width: 30%;
+
+  /* text-align: center; */
+}
+
+.container h1 {
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.container h2 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 0.375rem;
+}
+
+.container h4 {
+  /* text-align: center; */
+  padding: 10px;
+}
+
+.container input {
+  width: 97%;
+  padding: 8px;
+  border: solid 0.5px #2b2d42;
+  margin-bottom: 10px;
+  background: #f1faee;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+
+.container button {
+  width: 48%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-size: 1.185rem;
+}
+
+.container .refresh {
+  background: #606c38;
+  color: whitesmoke;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+
+.container button {
+  background: #283618;
+  color: whitesmoke;
+}
